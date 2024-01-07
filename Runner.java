@@ -24,6 +24,12 @@ public class Runner extends Movers
         maxSpeed();
     }
     //Maze runners moments
-    
+    public void mazeRunnerHit()
+    {
+        if(hitEnemy)
+        {
+            setLocation(40,450);
+        }
+    }
 }
 
