@@ -26,7 +26,10 @@ public class Runner extends Movers
     //Maze runners moments
     public void mazeRunnerHit()
     {
-        setLocation(40,450);
+        if(hitEnemy)
+        {
+            setLocation(40,450);
+        }
     }
 }
 
